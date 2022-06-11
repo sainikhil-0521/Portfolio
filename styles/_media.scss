@@ -173,6 +173,7 @@
         flex-direction: column;
         .left-content{
             font-size: .9rem;
+           
         }
         .right-content form{
             margin-left: 0;
@@ -212,3 +213,13 @@
   
 }
 
+@media screen and (max-width:420px){
+
+    contact-content-con{
+        
+        .left-content{
+            font-size: .2rem;
+           
+        }
+    }
+}
