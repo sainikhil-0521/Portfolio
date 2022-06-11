@@ -23,10 +23,10 @@ function pageTransitions() {
         const id=e.target.dataset.id;
         if(id){
 
-            ($.makeArray(secbtns)).forEach(function (btn){
-                btn.classList.remove('active');
-            });
-            e.target.classList.add('active');
+            // ($.makeArray(secbtns)).forEach(function (btn){
+            //     btn.classList.remove('active');
+            // });
+            // e.target.classList.add('active');
             $('#home').removeClass('active');
             ($.makeArray(sections)).forEach(function (sec){
                 sec.classList.remove('active');
@@ -36,6 +36,13 @@ function pageTransitions() {
 
         }
         
+    });
+
+
+    const themeBtn=document.querySelector('.theme-btn');
+    themeBtn.addEventListener('click', ()=>{
+        document.body.classList.toggle('light-mode');
+
     });
     
 }
