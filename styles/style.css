@@ -1241,9 +1241,9 @@ section {
   }
 }
 
-@media screen and (max-width: 420px) {
-  contact-content-con .left-content {
-    font-size: .2rem;
+@media screen and (max-width: 400px) {
+  .contact-content-con .left-content p {
+    font-size: .7rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

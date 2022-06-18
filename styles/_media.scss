@@ -213,12 +213,18 @@
   
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:400px){
 
-    contact-content-con{
+    .contact-content-con{
         
         .left-content{
-            font-size: .2rem;
+            p{
+                font-size: .7rem;
+            }
+            
+           
+            
+
            
         }
     }
